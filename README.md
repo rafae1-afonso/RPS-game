@@ -1,2 +1,2 @@
 # RPS-game
- rock, papaer and scissor game
+ rock, paper and scissor game
