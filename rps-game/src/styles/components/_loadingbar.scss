@@ -2,6 +2,9 @@
 
 #loading-bar {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
     justify-content: center;
     align-items: center;
 

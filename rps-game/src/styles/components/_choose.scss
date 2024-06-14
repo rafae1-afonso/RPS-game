@@ -29,6 +29,10 @@
     }
 }
 
+.reverse-animation {
+    animation: fade reverse 1s;
+}
+
 @keyframes fade {
     0% {
         opacity: 0;
