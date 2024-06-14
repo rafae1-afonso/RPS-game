@@ -1,0 +1,39 @@
+@use '../abstract/variables';
+
+#choose-buttons {
+    text-align: center;
+    color: white;
+}
+
+.choose-buttons__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    gap: 2rem;
+
+    & > button {
+        transition: .5s;
+        width: 5rem;
+        height: 5rem;
+        font-size: 40px;
+        border-radius: 100%;
+        background-color: variables.$color-dark-2;
+
+        animation: fade 1s;
+
+        &:hover {
+            filter: brightness(1.5);
+            cursor: pointer;
+        }
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
